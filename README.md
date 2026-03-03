@@ -28,16 +28,25 @@ EX/
 
  int numbers2D[4][4];
 
-     int arr[3][4] = {{0, 1, 2, 3}, {4, 5, 6, 7}, {8, 9, 10, 11}};
+      int arr[3][4] = {{0, 1, 2, 3}, {4, 5, 6, 7}, {8, 9, 10, 11}};
+   
    for (int i=0;i<3;i++)
+   
    {
+   
        for (int j=0;j<4;j++)
+
+       
        {
            printf("arr %d,%d,%d ",i,j,arr[i][j]);
+           
        }
        printf("\n");
    }
-   this is the form to print dimentionals Arrays 2D and for 3D increase one loop
+
+
+   
+this is the form to print dimentionals Arrays 2D and for 3D increase one loop
 2D is compose by the rows and colums
 3D is compose by 2D arrays  having one more colum and rows
 
