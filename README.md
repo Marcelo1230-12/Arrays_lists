@@ -14,8 +14,9 @@ int nombres[];
 now to insert the values inside the Array we need to put these variables in braklets{}
 to acces the variable in the array list we need to select a Index
 EX:
-int number[]:{1,2,3,45,55}
-number[0]=== the number is "1"
+
+      int number[]:{1,2,3,45,55}
+      number[0]=== the number is "1"
 
 =====Multidimentional arrays =====
 
@@ -24,15 +25,16 @@ number[0]=== the number is "1"
 is a Arrays list that have more than one dimentional meaning having more of more directions like 2D or 3D arrays list
 this can be showing when we create a array list and add more mroe
 EX/
+
  type arrName[size1][size2]....[sizeN];
 
- int numbers2D[4][4];
+    int numbers2D[4][4];
 
       int arr[3][4] = {{0, 1, 2, 3}, {4, 5, 6, 7}, {8, 9, 10, 11}};
    
-   for (int i=0;i<3;i++)
+     for (int i=0;i<3;i++)
    
-   {
+    {
    
        for (int j=0;j<4;j++)
 
@@ -42,7 +44,7 @@ EX/
            
        }
        printf("\n");
-   }
+    } 
 
 
    
